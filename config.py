@@ -1,6 +1,6 @@
-custombucket = "destinationtxt"
+custombucket = "destination247"
 table = "intellipaat"
-databasehost = "database-1.c14bnmt8jlz0.us-east-1.rds.amazonaws.com"
+databasehost = "database-1.c3ouq0yoi0w0.us-east-1.rds.amazonaws.com"
 duser = "intel"
 dpass = "intel123"
 s3database = "intellipaat"
