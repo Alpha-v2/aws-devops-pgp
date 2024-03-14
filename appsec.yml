@@ -1,15 +1,15 @@
 version: 0.0
 os: linux
 files:
-  - source: /
-    destination: /home/ubuntu/pgp-june
+  - source: /templates/index.html
+    destination: /var/www/html/
 hooks:
   BeforeInstall:
-    - location: scripts/boot.sh
+    - location: boot.sh
       timeout: 300
       runas: root
 
   BeforeAllowTraffic:
-    - location: scripts/start.sh
+    - location: start.sh
       timeout: 300
       runas: root
