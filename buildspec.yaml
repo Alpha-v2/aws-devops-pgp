@@ -11,8 +11,7 @@ phases:
     - sudo ./install auto
     - sudo apt-get install -y python3 tmux python3-pip
     - sudo pip3 install flask pymsql boto3
- 
- 
+    
  build:
   commands:
     - cp index.html /var/www/html
