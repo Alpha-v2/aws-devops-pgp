@@ -10,12 +10,14 @@ phases:
     - sudo chmod +x ./install
     - sudo ./install auto
     - sudo apt-get install -y python3 tmux python3-pip
-    - sudo pip3 install flask pymsql boto3
- build:
+    - sudo pip3 install flask pymsql boto
+
+    
+build:
   commands:
     - cp index.html /var/www/html
- post_build:
-   commands:
+post_build:
+  commands:
     - tmux new -s app
     - sudo python3 app.py
 artifacts:
