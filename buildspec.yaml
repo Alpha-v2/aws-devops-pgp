@@ -2,7 +2,7 @@ Version: 0.2
 phases:
   install: 
    commands:
-    - sudo apt update -y
+    - sudo apt-get update -y
     - sudo apt install ruby-full -y
     - sudo apt install wget
     - cd /home/ubuntu
